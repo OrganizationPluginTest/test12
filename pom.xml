@@ -25,7 +25,7 @@
 				<version>1.18.0</version>
 				<configuration>
 					<verbose>true</verbose>
-<!--					<keepBranch>true</keepBranch>-->
+					<keepBranch>true</keepBranch>
 <!--					<releaseRebase>true</releaseRebase>-->
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
