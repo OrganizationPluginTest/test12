@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.example</groupId>
+	<artifactId>test</artifactId>
+	<version>0.3.6-SNAPSHOT</version>
+
+	<properties>
+		<maven-release-plugin.version>3.0.0-M4</maven-release-plugin.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
+		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
+		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
+		<tag>@{version}</tag>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.amashchenko.maven.plugin</groupId>
+				<artifactId>gitflow-maven-plugin</artifactId>
+				<version>1.18.0</version>
+				<configuration>
+					<verbose>true</verbose>
+<!--					<keepBranch>true</keepBranch>-->
+<!--					<releaseRebase>true</releaseRebase>-->
+<!--					<noBackMerge>false</noBackMerge>-->
+<!--					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>-->
+					<pushRemote>true</pushRemote>
+<!--					<tychoBuild>true</tychoBuild>-->
+					<gitFlowConfig>
+						<developmentBranch>main</developmentBranch>
+						<productionBranch>main</productionBranch>
+					</gitFlowConfig>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
