@@ -29,7 +29,6 @@
 <!--					<releaseRebase>true</releaseRebase>-->
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
-					<pushRemote>false</pushRemote>
 <!--					<tychoBuild>true</tychoBuild>-->
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
