@@ -6,17 +6,6 @@
 	<artifactId>test</artifactId>
 	<version>0.3.10-SNAPSHOT</version>
 
-	<properties>
-		<maven-release-plugin.version>3.0.0-M4</maven-release-plugin.version>
-	</properties>
-
-	<scm>
-		<connection>scm:git:git@github.com:OrganizationPluginTest/test12.git</connection>
-		<developerConnection>scm:git:git@github.com:OrganizationPluginTest/test12.git</developerConnection>
-		<url>https://github.com/OrganizationPluginTest/test12</url>
-		<tag>@{version}</tag>
-	</scm>
-
 	<build>
 		<plugins>
 			<plugin>
