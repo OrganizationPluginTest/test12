@@ -26,6 +26,7 @@
 				<configuration>
 					<verbose>true</verbose>
 					<keepBranch>true</keepBranch>
+					<pushRemote>true</pushRemote>
 <!--					<releaseRebase>true</releaseRebase>-->
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
