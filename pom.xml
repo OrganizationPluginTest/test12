@@ -11,9 +11,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
-		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
-		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
+		<connection>scm:git:git@github.com:OrganizationPluginTest/test12.git</connection>
+		<developerConnection>scm:git:git@github.com:OrganizationPluginTest/test12.git</developerConnection>
+		<url>https://github.com/OrganizationPluginTest/test12</url>
 		<tag>@{version}</tag>
 	</scm>
 
