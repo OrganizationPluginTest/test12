@@ -4,7 +4,7 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test</artifactId>
-	<version>0.3.3-SNAPSHOT</version>
+	<version>0.3.6-SNAPSHOT</version>
 
 	<properties>
 		<maven-release-plugin.version>3.0.0-M4</maven-release-plugin.version>
