@@ -17,7 +17,6 @@
 					<pushRemote>true</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
-					<gitPushOptions>merge_request.create</gitPushOptions>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
 						<productionBranch>main</productionBranch>
