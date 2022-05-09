@@ -4,7 +4,7 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test1</artifactId>
-	<version>0.3.0-SNAPSHOT</version>
+	<version>0.3.1-SNAPSHOT</version>
 	<!--feature-->
 	<build>
 		<plugins>
@@ -20,6 +20,7 @@
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>develop</productionBranch>
+						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
