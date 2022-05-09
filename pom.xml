@@ -13,7 +13,7 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.18.0</version>
 				<configuration>
-<!--					<keepBranch>true</keepBranch>-->
+					<keepBranch>true</keepBranch>
 					<pushRemote>true</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
