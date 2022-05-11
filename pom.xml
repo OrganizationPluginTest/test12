@@ -15,7 +15,7 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.18.0</version>
 				<configuration>
-<!--					<keepBranch>true</keepBranch>-->
+					<keepBranch>true</keepBranch>
 					<pushRemote>true</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
@@ -26,26 +26,6 @@
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
-				<executions>
-					<execution>
-						<id>1</id>
-						<goals>
-							<goal>release-start</goal>
-						</goals>
-						<configuration>
-							<pushRemote>true</pushRemote>
-						</configuration>
-					</execution>
-					<execution>
-						<id>2</id>
-						<goals>
-							<goal>release-finish</goal>
-						</goals>
-						<configuration>
-							<pushRemote>false</pushRemote>
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
