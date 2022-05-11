@@ -26,6 +26,21 @@
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
+				<executions>
+					<execution>
+						<id>1</id>
+						<goals>
+							<goal>hotfix-start</goal>
+							<goal>hotfix-finish</goal>
+						</goals>
+						<configuration>
+							<keepBranch>true</keepBranch>
+							<skipUpdateVersion>true</skipUpdateVersion>
+							<noBackMergeHotfix>false</noBackMergeHotfix>
+							<skipMergeDevBranch>true</skipMergeDevBranch>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
