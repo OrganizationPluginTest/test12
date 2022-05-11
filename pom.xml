@@ -23,7 +23,7 @@
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
-						<productionBranch>main</productionBranch>
+						<productionBranch>develop</productionBranch>
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
