@@ -19,6 +19,7 @@
 					<pushRemote>false</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
+					<skipMergeDevBranch>true</skipMergeDevBranch>
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>main</productionBranch>
