@@ -16,7 +16,7 @@
 				<version>1.18.0</version>
 				<configuration>
 <!--					<keepBranch>true</keepBranch>-->
-					<pushRemote>false</pushRemote>
+					<pushRemote>true</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
 					<skipMergeDevBranch>true</skipMergeDevBranch>
