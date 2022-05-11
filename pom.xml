@@ -24,6 +24,7 @@
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>main</productionBranch>
+						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
