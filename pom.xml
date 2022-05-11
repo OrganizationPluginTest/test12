@@ -19,8 +19,8 @@
 <!--					<noBackMerge>false</noBackMerge>-->
 <!--					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>-->
 					<gitFlowConfig>
-						<developmentBranch>main</developmentBranch>
-						<productionBranch>develop</productionBranch>
+						<developmentBranch>develop</developmentBranch>
+						<productionBranch>main</productionBranch>
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
