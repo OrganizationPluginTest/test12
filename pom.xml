@@ -27,7 +27,7 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>release-start</id>
+						<id>release-start1</id>
 						<goals>
 							<goal>release-start</goal>
 						</goals>
