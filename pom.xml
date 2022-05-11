@@ -21,12 +21,9 @@
 					<pushRemote>true</pushRemote>
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
-					<skipMergeDevBranch>true</skipMergeDevBranch>
-					<noBackMergeHotfix>false</noBackMergeHotfix>
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>main</productionBranch>
-						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
