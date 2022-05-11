@@ -17,8 +17,8 @@
 				<configuration>
 <!--					<keepBranch>true</keepBranch>-->
 					<pushRemote>false</pushRemote>
-<!--					<noBackMerge>false</noBackMerge>-->
-<!--					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>-->
+					<noBackMerge>false</noBackMerge>
+					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>main</productionBranch>
@@ -33,6 +33,15 @@
 						</goals>
 						<configuration>
 							<pushRemote>true</pushRemote>
+						</configuration>
+					</execution>
+					<execution>
+						<id>2</id>
+						<goals>
+							<goal>release-finish</goal>
+						</goals>
+						<configuration>
+							<pushRemote>false</pushRemote>
 						</configuration>
 					</execution>
 				</executions>
