@@ -4,7 +4,7 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test1</artifactId>
-	<version>0.4.0-SNAPSHOT</version>
+	<version>0.2.9-SNAPSHOT</version>
 	<!--feature-->
 	<!--feature2-->
 	<!--feature3-->
@@ -29,20 +29,6 @@
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
-				<executions>
-					<execution>
-						<id>1</id>
-						<goals>
-							<goal>hotfix-start</goal>
-							<goal>hotfix-finish</goal>
-						</goals>
-						<configuration>
-							<keepBranch>true</keepBranch>
-							<skipUpdateVersion>true</skipUpdateVersion>
-							<skipMergeDevBranch>true</skipMergeDevBranch>
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
