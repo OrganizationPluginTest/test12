@@ -20,6 +20,7 @@
 					<noBackMerge>false</noBackMerge>
 					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
 					<skipMergeDevBranch>true</skipMergeDevBranch>
+					<noBackMergeHotfix>false</noBackMergeHotfix>
 					<gitFlowConfig>
 						<developmentBranch>develop</developmentBranch>
 						<productionBranch>main</productionBranch>
@@ -37,7 +38,6 @@
 							<keepBranch>true</keepBranch>
 							<skipTag>true</skipTag>
 							<skipUpdateVersion>true</skipUpdateVersion>
-							<noBackMergeHotfix>false</noBackMergeHotfix>
 							<skipMergeDevBranch>true</skipMergeDevBranch>
 						</configuration>
 					</execution>
