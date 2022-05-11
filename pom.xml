@@ -4,12 +4,12 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test1</artifactId>
-	<version>0.2.11-SNAPSHOT</version>
+	<version>0.2.12</version>
 	<!--feature-->
 	<!--feature2-->
 	<!--feature3-->
 	<!--sdfasfa-->
-	<!--hotfix-->
+	<!--hotfix1-->
 	<build>
 		<plugins>
 			<plugin>
