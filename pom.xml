@@ -36,7 +36,6 @@
 						</goals>
 						<configuration>
 							<keepBranch>true</keepBranch>
-							<skipTag>true</skipTag>
 							<skipUpdateVersion>true</skipUpdateVersion>
 							<skipMergeDevBranch>true</skipMergeDevBranch>
 						</configuration>
