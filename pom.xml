@@ -27,6 +27,21 @@
 						<supportBranchPrefix>release/</supportBranchPrefix>
 					</gitFlowConfig>
 				</configuration>
+				<executions>
+					<execution>
+						<id>master</id>
+						<goals>
+							<goal>hotfix-start</goal>
+						</goals>
+						<configuration>
+							<gitFlowConfig>
+								<developmentBranch>develop</developmentBranch>
+								<productionBranch>main</productionBranch>
+								<supportBranchPrefix>release/</supportBranchPrefix>
+							</gitFlowConfig>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
