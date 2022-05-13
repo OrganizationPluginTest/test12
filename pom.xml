@@ -4,7 +4,7 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test1</artifactId>
-	<version>0.4.0-SNAPSHOT</version>
+	<version>0.4.0</version>
 	<!--feature 12-->
 	<build>
 		<plugins>
